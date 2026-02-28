@@ -33,11 +33,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. A `curl` request with the anon key returns data from `skills` and only `active=true` rows from `volunteers`, and returns empty (not an error) for tables where no rows exist — confirming RLS policies are active and correct
   4. TypeScript types generated via `npx supabase gen types` are committed and the app compiles with zero TypeScript errors
   5. `@nuxt/ui`, `@nuxtjs/supabase`, and `@pinia/nuxt` are installed and configured with correct versions — app boots and `<UApp>` wrapper is present in `app/app.vue`
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Nuxt 4 project scaffold with correct app/ directory, nuxt.config.ts, and all required dependencies installed
-- [ ] 01-02: Supabase schema migration (all 5 tables + RLS policies) and TypeScript type generation
+- [ ] 01-01-PLAN.md — Nuxt 4 project scaffold: app/ directory, nuxt.config.ts, all required dependencies installed and configured
+- [ ] 01-02-PLAN.md — Supabase schema migration (all 5 tables + RLS policies) and TypeScript type generation
 
 ### Phase 2: Authentication
 **Goal**: Admin can securely log in, all `/admin/**` routes are protected by a named middleware, and the admin can log out from any page — the security boundary for all CRUD work.
