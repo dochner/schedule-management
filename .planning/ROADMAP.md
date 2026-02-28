@@ -12,7 +12,7 @@ Eight phases that build from an empty repository to a fully deployed volunteer s
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Nuxt 4 project scaffolded, Supabase schema with 5 tables + RLS, TypeScript types generated
+- [x] **Phase 1: Foundation** - Nuxt 4 project scaffolded, Supabase schema with 5 tables + RLS, TypeScript types generated (completed 2026-02-28)
 - [ ] **Phase 2: Authentication** - Admin login page, named route middleware protecting all `/admin/**` routes, logout
 - [ ] **Phase 3: Skills Admin** - Full CRUD for skills with name, description, and color picker
 - [ ] **Phase 4: Volunteers Admin** - Full CRUD for volunteers including active status toggle and multi-skill assignment
@@ -152,7 +152,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/2 | In progress | - |
+| 1. Foundation | 2/2 | Complete   | 2026-02-28 |
 | 2. Authentication | 0/2 | Not started | - |
 | 3. Skills Admin | 0/2 | Not started | - |
 | 4. Volunteers Admin | 0/2 | Not started | - |
