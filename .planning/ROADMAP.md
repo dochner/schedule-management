@@ -36,7 +36,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Nuxt 4 project scaffold: app/ directory, nuxt.config.ts, all required dependencies installed and configured
+- [x] 01-01-PLAN.md — Nuxt 4 project scaffold: app/ directory, nuxt.config.ts, all required dependencies installed and configured
 - [ ] 01-02-PLAN.md — Supabase schema migration (all 5 tables + RLS policies) and TypeScript type generation
 
 ### Phase 2: Authentication
@@ -152,7 +152,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Not started | - |
+| 1. Foundation | 1/2 | In progress | - |
 | 2. Authentication | 0/2 | Not started | - |
 | 3. Skills Admin | 0/2 | Not started | - |
 | 4. Volunteers Admin | 0/2 | Not started | - |

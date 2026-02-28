@@ -12,7 +12,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **FOUND-01**: Supabase database schema with all 5 tables (`skills`, `volunteers`, `volunteer_skills`, `events`, `schedules`) created via versioned migration
 - [ ] **FOUND-02**: Row Level Security (RLS) enabled on all tables with appropriate policies — anon: SELECT only (volunteers: active=true only); authenticated: full CRUD
 - [ ] **FOUND-03**: TypeScript types generated from Supabase schema (`npx supabase gen types`) and committed to the codebase
-- [ ] **FOUND-04**: Nuxt 4 project scaffolded with `app/` directory structure, `@nuxt/ui`, `@nuxtjs/supabase`, and `@pinia/nuxt` correctly configured
+- [x] **FOUND-04**: Nuxt 4 project scaffolded with `app/` directory structure, `@nuxt/ui`, `@nuxtjs/supabase`, and `@pinia/nuxt` correctly configured
 
 ### Authentication
 
@@ -109,7 +109,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-01 | Phase 1 | Pending |
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Complete |
 | AUTH-01 | Phase 2 | Pending |
 | AUTH-02 | Phase 2 | Pending |
 | AUTH-03 | Phase 2 | Pending |
