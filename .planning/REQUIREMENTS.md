@@ -110,36 +110,36 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
-| AUTH-01 | Phase 1 | Pending |
-| AUTH-02 | Phase 1 | Pending |
-| AUTH-03 | Phase 1 | Pending |
-| AUTH-04 | Phase 1 | Pending |
-| SKILL-01 | Phase 2 | Pending |
-| SKILL-02 | Phase 2 | Pending |
-| SKILL-03 | Phase 2 | Pending |
-| SKILL-04 | Phase 2 | Pending |
-| VOLUN-01 | Phase 2 | Pending |
-| VOLUN-02 | Phase 2 | Pending |
-| VOLUN-03 | Phase 2 | Pending |
-| VOLUN-04 | Phase 2 | Pending |
-| VOLUN-05 | Phase 2 | Pending |
-| VOLUN-06 | Phase 2 | Pending |
-| EVENT-01 | Phase 2 | Pending |
-| EVENT-02 | Phase 2 | Pending |
-| EVENT-03 | Phase 2 | Pending |
-| EVENT-04 | Phase 2 | Pending |
-| SCHED-01 | Phase 2 | Pending |
-| SCHED-02 | Phase 2 | Pending |
-| SCHED-03 | Phase 2 | Pending |
-| SCHED-04 | Phase 2 | Pending |
-| PUB-01 | Phase 3 | Pending |
-| PUB-02 | Phase 3 | Pending |
-| PUB-03 | Phase 3 | Pending |
-| PUB-04 | Phase 3 | Pending |
-| PUB-05 | Phase 3 | Pending |
-| EXPO-01 | Phase 3 | Pending |
-| EXPO-02 | Phase 3 | Pending |
-| EXPO-03 | Phase 3 | Pending |
+| AUTH-01 | Phase 2 | Pending |
+| AUTH-02 | Phase 2 | Pending |
+| AUTH-03 | Phase 2 | Pending |
+| AUTH-04 | Phase 2 | Pending |
+| SKILL-01 | Phase 3 | Pending |
+| SKILL-02 | Phase 3 | Pending |
+| SKILL-03 | Phase 3 | Pending |
+| SKILL-04 | Phase 3 | Pending |
+| VOLUN-01 | Phase 4 | Pending |
+| VOLUN-02 | Phase 4 | Pending |
+| VOLUN-03 | Phase 4 | Pending |
+| VOLUN-04 | Phase 4 | Pending |
+| VOLUN-05 | Phase 4 | Pending |
+| VOLUN-06 | Phase 4 | Pending |
+| EVENT-01 | Phase 5 | Pending |
+| EVENT-02 | Phase 5 | Pending |
+| EVENT-03 | Phase 5 | Pending |
+| EVENT-04 | Phase 5 | Pending |
+| SCHED-01 | Phase 6 | Pending |
+| SCHED-02 | Phase 6 | Pending |
+| SCHED-03 | Phase 6 | Pending |
+| SCHED-04 | Phase 6 | Pending |
+| PUB-01 | Phase 7 | Pending |
+| PUB-02 | Phase 7 | Pending |
+| PUB-03 | Phase 7 | Pending |
+| PUB-04 | Phase 7 | Pending |
+| PUB-05 | Phase 7 | Pending |
+| EXPO-01 | Phase 8 | Pending |
+| EXPO-02 | Phase 8 | Pending |
+| EXPO-03 | Phase 8 | Pending |
 
 **Coverage:**
 - v1 requirements: 35 total
@@ -148,4 +148,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-28*
-*Last updated: 2026-02-28 after initial definition*
+*Last updated: 2026-02-28 after roadmap creation (8-phase structure)*
