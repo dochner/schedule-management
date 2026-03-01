@@ -329,6 +329,7 @@ interface GroupedSchedules {
             <USelectMenu
               v-model="singleForm.eventId"
               :items="eventItems"
+              value-key="value"
               placeholder="Selecionar evento..."
             />
           </UFormField>
@@ -337,6 +338,7 @@ interface GroupedSchedules {
             <USelectMenu
               v-model="singleForm.volunteerId"
               :items="volunteerItems"
+              value-key="value"
               placeholder="Selecionar voluntário..."
             />
           </UFormField>
@@ -345,6 +347,7 @@ interface GroupedSchedules {
             <USelectMenu
               v-model="singleForm.skillId"
               :items="skillItemsForVolunteer"
+              value-key="value"
               placeholder="Selecionar função..."
             >
               <template #item="{ item }">
@@ -373,6 +376,7 @@ interface GroupedSchedules {
             <USelectMenu
               v-model="bulkEventId"
               :items="eventItems"
+              value-key="value"
               placeholder="Selecionar evento..."
             />
           </UFormField>
@@ -383,6 +387,7 @@ interface GroupedSchedules {
                 <USelectMenu
                   v-model="entry.volunteerId"
                   :items="volunteerItems"
+                  value-key="value"
                   placeholder="Voluntário..."
                 />
               </UFormField>
@@ -391,6 +396,7 @@ interface GroupedSchedules {
                 <USelectMenu
                   v-model="entry.skillId"
                   :items="getSkillsForVolunteer(entry.volunteerId)"
+                  value-key="value"
                   placeholder="Função..."
                 />
               </UFormField>
