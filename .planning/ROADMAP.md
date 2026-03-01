@@ -13,10 +13,10 @@ Eight phases that build from an empty repository to a fully deployed volunteer s
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Nuxt 4 project scaffolded, Supabase schema with 5 tables + RLS, TypeScript types generated (completed 2026-02-28)
-- [ ] **Phase 2: Authentication** - Admin login page, named route middleware protecting all `/admin/**` routes, logout
-- [ ] **Phase 3: Skills Admin** - Full CRUD for skills with name, description, and color picker
-- [ ] **Phase 4: Volunteers Admin** - Full CRUD for volunteers including active status toggle and multi-skill assignment
-- [ ] **Phase 5: Events Admin** - Full CRUD for events with title, description, location, and date/time fields
+- [x] **Phase 2: Authentication** - Admin login page, named route middleware protecting all `/admin/**` routes, logout (completed 2026-02-28)
+- [x] **Phase 3: Skills Admin** - Full CRUD for skills with name, description, and color picker (completed 2026-02-28)
+- [x] **Phase 4: Volunteers Admin** - Full CRUD for volunteers including active status toggle and multi-skill assignment (completed 2026-02-28)
+- [x] **Phase 5: Events Admin** - Full CRUD for events with title, description, location, and date/time fields (completed 2026-02-28)
 - [ ] **Phase 6: Schedules Admin** - Schedule assignment CRUD per event with single and bulk-add modes
 - [ ] **Phase 7: Public Page** - Volunteer name lookup, date-grouped schedule table, mobile-responsive Portuguese UI
 - [ ] **Phase 8: Exports** - PDF export with volunteer header + generation footer, ICS calendar export with Europe/Lisbon timezone
@@ -51,8 +51,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 02-01: Supabase Auth login page at /admin/login and named auth middleware for /admin/** route protection
-- [ ] 02-02: Logout action, admin layout with navigation, and session persistence validation
+- [x] 02-01: Supabase Auth login page at /admin/login and named auth middleware for /admin/** route protection
+- [x] 02-02: Logout action, admin layout with navigation, and session persistence validation
 
 ### Phase 3: Skills Admin
 **Goal**: Admin can create, view, edit, and delete skills — with color assignment — so that skills exist as a selectable entity for volunteer assignment in Phase 4.
@@ -63,11 +63,10 @@ Plans:
   2. The skills list shows all skills with their name, description, and color indicator visible
   3. Admin can click edit on any skill, change any field including color, save, and see the updated values reflected in the list immediately
   4. Admin can click delete on a skill, confirm the action in a dialog, and the skill is removed from the list
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: Skills Pinia store (useSkillStore) with CRUD actions calling Supabase
-- [ ] 03-02: Skills admin page — list view, create/edit form with color picker, delete confirmation
+- [x] 03-01-PLAN.md — Skills Pinia store (useSkillsStore) and admin page with UTable, create/edit modal, delete confirmation, color picker
 
 ### Phase 4: Volunteers Admin
 **Goal**: Admin can create, view, edit, and delete volunteers including assigning multiple skills and toggling active status — so that volunteers exist as selectable entities for schedule assignments in Phase 6.
@@ -82,8 +81,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 04-01: Volunteers Pinia store (useVolunteerStore) with CRUD actions including volunteer_skills join table handling
-- [ ] 04-02: Volunteers admin page — list view with active toggle, create/edit form with multi-skill select, delete confirmation
+- [x] 04-01: Volunteers Pinia store (useVolunteerStore) with CRUD actions including volunteer_skills join table handling
+- [x] 04-02: Volunteers admin page — list view with active toggle, create/edit form with multi-skill select, delete confirmation
 
 ### Phase 5: Events Admin
 **Goal**: Admin can create, view, edit, and delete events with full date/time and location details — so that events exist as the context for schedule assignments in Phase 6.
@@ -94,11 +93,11 @@ Plans:
   2. The events list shows all events sorted by start date, with title, date/time, and location visible
   3. Admin can edit any event's details and see changes reflected immediately in the list
   4. Admin can delete an event with confirmation and the event is removed from the list
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 05-01: Events Pinia store (useEventStore) with CRUD actions calling Supabase
-- [ ] 05-02: Events admin page — list view sorted by date, create/edit form with datetime pickers, delete confirmation
+- [x] 05-01: Events Pinia store (useEventsStore) with CRUD actions calling Supabase
+- [x] 05-02: Events admin page — list view sorted by date, create/edit form with datetime pickers, delete confirmation
 
 ### Phase 6: Schedules Admin
 **Goal**: Admin can assign volunteers and skills to events, add multiple assignments in a single operation, view all assignments grouped by event, and delete individual assignments — completing the core join entity that powers the public page.
@@ -112,8 +111,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 06-01: Schedules Pinia store (useScheduleStore) with CRUD and bulk-add actions calling Supabase
-- [ ] 06-02: Schedules admin page — event-grouped table view, single-assign form, bulk-add interface, delete confirmation
+- [x] 06-01: Schedules Pinia store (useScheduleStore) with CRUD and bulk-add actions calling Supabase
+- [x] 06-02: Schedules admin page — event-grouped table view, single-assign form, bulk-add interface, delete confirmation
 
 ### Phase 7: Public Page
 **Goal**: Any volunteer can visit the site, search for their name, and see their upcoming assignments in a welcoming, Portuguese-language, mobile-responsive schedule table — with a clear instructional state before any name is selected.
@@ -128,8 +127,8 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 07-01: Public schedule store (useScheduleStore.fetchByVolunteer) and volunteer name query for the public filter dropdown
-- [ ] 07-02: Public page (app/pages/index.vue) — volunteer multi-select, date-grouped schedule table, empty state, Portuguese strings, mobile layout
+- [x] 07-01: Public schedule store (useScheduleStore.fetchByVolunteer) and volunteer name query for the public filter dropdown
+- [x] 07-02: Public page (app/pages/index.vue) — volunteer multi-select, date-grouped schedule table, empty state, Portuguese strings, mobile layout
 
 ### Phase 8: Exports
 **Goal**: A volunteer can download a print-ready PDF of their schedule or an ICS calendar file importable into Google Calendar or Apple Calendar, with correct timezone handling for Lisbon.
