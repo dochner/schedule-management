@@ -14,10 +14,15 @@
     "@nuxt/ui": "^4.5.0",
     "@nuxtjs/supabase": "^2.0.4",
     "@pinia/nuxt": "^0.11.3",
+    "@touch4it/ical-timezones": "^1.9.0",
+    "ical-generator": "^10.0.0",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
     "nuxt": "^4.3.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.28",
-    "vue-router": "^4.6.4"
+    "vue-router": "^4.6.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2"

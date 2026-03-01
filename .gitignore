@@ -22,3 +22,5 @@ logs
 .env
 .env.*
 !.env.example
+supabase/.temp/
+initial-prompt-later-delete-this-please.md
