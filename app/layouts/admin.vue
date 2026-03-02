@@ -40,6 +40,12 @@ async function logout() {
           >
             Escalas
           </NuxtLink>
+          <NuxtLink
+            to="/admin/escala-som"
+            class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 font-medium"
+          >
+            🎛️ Escala Som
+          </NuxtLink>
         </div>
       </nav>
       <div class="flex items-center gap-4">

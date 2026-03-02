@@ -24,3 +24,4 @@ logs
 !.env.example
 supabase/.temp/
 initial-prompt-later-delete-this-please.md
+.vercel
