@@ -224,11 +224,11 @@ const SLOT_COLORS: Record<SlotType, string> = {
     <!-- Filters -->
     <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4">
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-        <USelect v-model="filterMonth" :options="MONTH_OPTIONS" value-key="value" label-key="label" size="sm" />
-        <USelect v-model="filterVolunteer" :options="VOLUNTEER_OPTIONS" value-key="value" label-key="label" size="sm" />
-        <USelect v-model="filterSlotType" :options="SLOT_TYPE_OPTIONS" value-key="value" label-key="label" size="sm" />
-        <USelect v-model="filterLocation" :options="LOCATION_OPTIONS" value-key="value" label-key="label" size="sm" />
-        <USelect v-model="filterStatus" :options="STATUS_OPTIONS" value-key="value" label-key="label" size="sm" />
+        <USelect v-model="filterMonth" :items="MONTH_OPTIONS" value-key="value" label-key="label" size="sm" />
+        <USelect v-model="filterVolunteer" :items="VOLUNTEER_OPTIONS" value-key="value" label-key="label" size="sm" />
+        <USelect v-model="filterSlotType" :items="SLOT_TYPE_OPTIONS" value-key="value" label-key="label" size="sm" />
+        <USelect v-model="filterLocation" :items="LOCATION_OPTIONS" value-key="value" label-key="label" size="sm" />
+        <USelect v-model="filterStatus" :items="STATUS_OPTIONS" value-key="value" label-key="label" size="sm" />
       </div>
       <p v-if="filtered.length !== schedule.length" class="text-xs text-gray-400 mt-2">
         {{ filtered.length }} de {{ schedule.length }} slots
